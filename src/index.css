@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  * { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
+}
+
+body {
+  margin: 0;
+  background: #05060a;
+  color: #e7e9ee;
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, .display {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.mono { font-family: 'JetBrains Mono', monospace; }
+
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #2a3142; border-radius: 8px; }
+
+#bg-canvas {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.glass {
+  background: linear-gradient(160deg, rgba(20, 24, 36, 0.55), rgba(10, 12, 20, 0.35));
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-strong {
+  background: linear-gradient(160deg, rgba(20, 24, 36, 0.75), rgba(10, 12, 20, 0.6));
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.text-gradient {
+  background: linear-gradient(100deg, #5eead4 0%, #a78bfa 55%, #fbbf6b 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.section-eyebrow {
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  color: #5eead4;
+}
+
+.fade-up {
+  opacity: 0;
+  transform: translateY(40px);
+}
+
+.focus-ring:focus-visible {
+  outline: 2px solid #5eead4;
+  outline-offset: 3px;
+}
+
+.skip-link {
+  position: absolute;
+  left: -999px;
+  top: 0;
+  z-index: 100;
+  background: #5eead4;
+  color: #05060a;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-weight: 600;
+}
+.skip-link:focus {
+  left: 16px;
+  top: 16px;
+}
+
+.node-card {
+  transition: transform 0.4s ease, border-color 0.4s ease, box-shadow 0.4s ease;
+}
+.node-card:hover, .node-card:focus-within {
+  transform: translateY(-6px);
+  border-color: rgba(94, 234, 212, 0.5);
+  box-shadow: 0 20px 60px -20px rgba(94, 234, 212, 0.25);
+}
