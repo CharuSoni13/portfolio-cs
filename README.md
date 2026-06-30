@@ -1,39 +1,130 @@
-# Charu Soni — Interactive 3D Cinematic Portfolio
+# 👋 Hi, I'm Charu Soni
 
-A scroll-driven 3D portfolio built with **React + Vite**, **Three.js**, **GSAP/ScrollTrigger**, and **Tailwind CSS**, populated entirely with content from the provided resume and PRD.
+<div align="center">
 
-## Run it locally
+### Full Stack Developer • AI/ML Enthusiast • UI/UX Designer
 
-```bash
-npm install
-npm run dev
-```
+*"Weaving Intelligence into Interfaces."*
 
-Then open the printed `localhost` URL. To build for production:
+</div>
 
-```bash
-npm run build
-npm run preview
-```
+---
 
-## What's inside
+## 🚀 About Me
 
-- `src/components/Scene3D.jsx` — the full-page WebGL background: a particle "neural network" universe that the camera flies through as you scroll, with mouse parallax and a High Quality / Eco Mode performance toggle (PRD §4.2).
-- `src/components/Nav.jsx` — sticky glass navbar with scroll-spy active states and the performance toggle.
-- `src/components/Hero.jsx` — Section 1, The Gateway.
-- `src/components/About.jsx` — Section 2, The Core Node (skill "shards": Frontend, Backend, Core Concepts, Tools, Soft Skills).
-- `src/components/Experience.jsx` — Section 3, The Pathway (Ternovate Labs + Coding Blocks timeline).
-- `src/components/Projects.jsx` — Section 4, the interactive gallery (Verde Depths, NCAP Portal, AegisTalent, Rakshak Dashboard, Green Roots) with a click-through detail modal.
-- `src/components/Education.jsx` — Section 5, The Constellation (education + certifications).
-- `src/components/Contact.jsx` — Section 6, validated contact form (opens a pre-filled email) + quick links.
-- `src/components/AIAssistant.jsx` — Section 4.3, the cursor-following AI particle with a terminal popup (falls back to a tap button on touch devices).
-- `src/hooks/useScrollReveal.js` — shared GSAP ScrollTrigger fade/rise reveal used across sections.
-- `src/data/resumeData.js` — single source of truth for every resume fact used across the site; edit this file to update content anywhere.
+I'm a B.Tech student specializing in **Artificial Intelligence & Machine Learning** with a strong passion for building modern, interactive, and user-centric digital experiences.
 
-## Notes & next steps
+I enjoy combining **AI**, **full-stack development**, and **creative UI/UX design** to create applications that are both visually engaging and technically robust. From immersive web experiences to machine learning projects, I love transforming ideas into impactful products.
 
-- All resume content (experience, projects, education, certifications, skills, contact details) is centralized in `src/data/resumeData.js` — update links (`links.github`, `links.linkedin`, `links.resume`) with real URLs before deploying.
-- Respects `prefers-reduced-motion`, uses semantic HTML, visible focus rings, and keyboard-accessible nav/modal/form to meet the PRD's WCAG goals.
-- The 3D scene automatically reduces particle count and pixel ratio on screens under 768px, matching the PRD's mobile fallback (decorative background + glassmorphic content).
-- Swap the placeholder `tech`/`links` URLs in `resumeData.js` with real GitHub/live links per project.
-- For deployment, any static host works (Vercel, Netlify, GitHub Pages) — run `npm run build` and deploy the `dist/` folder.
+Currently, I'm exploring advanced web technologies, 3D web experiences, and AI-powered applications while continuously improving my problem-solving and development skills.
+
+---
+
+## 💻 Tech Stack
+
+### Frontend
+
+* React.js
+* Next.js
+* JavaScript (ES6+)
+* HTML5
+* CSS3
+* Tailwind CSS
+* GSAP
+* Framer Motion
+
+### Backend
+
+* Node.js
+* Express.js
+
+### Database
+
+* MongoDB
+* PostgreSQL
+
+### AI & Machine Learning
+
+* Python
+* Machine Learning
+* Data Analysis
+* NumPy
+* Pandas
+* Scikit-learn
+
+### UI/UX
+
+* Figma
+* Wireframing
+* Prototyping
+* User Research
+
+### Tools
+
+* Git
+* GitHub
+* VS Code
+* Postman
+* Blender
+* Vite
+
+---
+
+## 🌟 Featured Projects
+
+### 🌿 Verde Depths
+
+An immersive cinematic web experience featuring scroll-driven storytelling, premium animations, and interactive user experiences.
+
+### 📊 NCAP Portal
+
+A web platform that helps students analyze admission possibilities using Safe, Target, and Reach classifications.
+
+### 🤖 Smart Customer Retention Intelligence System
+
+An end-to-end machine learning project that predicts customer churn and provides actionable business insights through an interactive dashboard.
+
+### 🌱 Green Roots
+
+A modern full-stack web application with responsive design and dynamic functionality.
+
+### 🛡️ Rakshak Dashboard
+
+A dashboard focused on clean UI, efficient data visualization, and intuitive user experience.
+
+---
+
+## 📚 Currently Learning
+
+* Advanced React
+* Three.js & React Three Fiber
+* Next.js
+* AI Integrations
+* Generative AI
+* System Design
+* Cloud Technologies
+
+---
+
+## 🎯 Interests
+
+* Full Stack Development
+* Artificial Intelligence
+* Machine Learning
+* UI/UX Design
+* Creative Development
+* 3D Web Experiences
+* Open Source
+
+---
+
+
+---
+
+<div align="center">
+
+### Thanks for visiting my portfolio! ⭐
+
+If you like my work, feel free to connect, collaborate, or explore my projects.
+
+</div>
